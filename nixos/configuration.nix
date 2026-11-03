@@ -251,6 +251,11 @@
 
   # List services that you want to enable:
 
+  # Keep SSH/Git credential prompts in the terminal instead of an X11 popup.
+  # NixOS exports SSH_ASKPASS by default, which Git also uses for HTTPS
+  # username/password prompts. Disable it so prompts go to the TTY.
+  programs.ssh.enableAskPassword = false;
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 

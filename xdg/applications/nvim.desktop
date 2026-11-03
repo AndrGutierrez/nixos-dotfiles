@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Neovim
+GenericName=Text Editor
+Comment=Edit text files in Neovim (terminal)
+TryExec=nvim
+Exec=alacritty -e nvim %F
+Terminal=false
+Icon=utilities-terminal
+Categories=Utility;TextEditor;
+MimeType=text/plain;text/markdown;text/x-shellscript;application/x-shellscript;
+Keywords=Text;Editor;Vim;Neovim;
+StartupNotify=true

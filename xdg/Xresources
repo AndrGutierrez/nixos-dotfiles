@@ -1,0 +1,4 @@
+! X resources — loaded into the X server with `xrdb -merge ~/.Xresources`.
+! Cursor theme lives in ~/.icons/Hornet (converted from the Windows .ani pack).
+Xcursor.theme: Hornet
+Xcursor.size: 48

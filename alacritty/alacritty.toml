@@ -1,0 +1,69 @@
+# Alacritty — GitHub Dark (Primer) theme.
+# Palette: https://primer.style/foundations/color
+# Kept in one file on purpose: no external imports to break on upgrades.
+
+[window]
+padding = { x = 6, y = 6 }
+
+# Every new terminal is an interactive zsh (which loads /etc/zshrc + ~/.zshrc,
+# and therefore fastfetch). Works even before the login shell rebuild lands.
+[terminal]
+shell = { program = "zsh" }
+
+[font]
+size = 14.4
+
+[font.normal]
+family = "FiraCode Nerd Font"
+
+[colors.primary]
+background = "#0d1117"
+foreground = "#c9d1d9"
+dim_foreground = "#8b949e"
+bright_foreground = "#f0f6fc"
+
+[colors.cursor]
+text = "#0d1117"
+cursor = "#c9d1d9"
+
+[colors.vi_mode_cursor]
+text = "#0d1117"
+cursor = "#58a6ff"
+
+[colors.selection]
+text = "#0d1117"
+background = "#6e7681"
+
+# Normal (GitHub Dark "chroma" ANSI palette)
+[colors.normal]
+black = "#484f58"
+red = "#ff7b72"
+green = "#3fb950"
+yellow = "#d29922"
+blue = "#58a6ff"
+magenta = "#bc8cff"
+cyan = "#39c5cf"
+white = "#b1bac4"
+
+# Bright
+[colors.bright]
+black = "#6e7681"
+red = "#ffa198"
+green = "#56d364"
+yellow = "#e3b341"
+blue = "#79c0ff"
+magenta = "#d2a8ff"
+cyan = "#56d4dd"
+white = "#f0f6fc"
+
+[colors.hints]
+start = { foreground = "#0d1117", background = "#d29922" }
+end = { foreground = "#0d1117", background = "#3fb950" }
+
+[colors.search]
+matches = { foreground = "#0d1117", background = "#58a6ff" }
+focused_match = { foreground = "#0d1117", background = "#3fb950" }
+
+[colors.footer_bar]
+foreground = "#0d1117"
+background = "#8b949e"

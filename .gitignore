@@ -1,0 +1,8 @@
+# Build artifacts and binary inputs: never commit these.
+
+# Upwork .deb (79 MB build input, re-downloadable from Upwork)
+*.deb
+
+# nix build results
+result
+result-*
